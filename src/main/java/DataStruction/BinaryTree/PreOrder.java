@@ -30,7 +30,7 @@ public class PreOrder {
         b1.right = b3;
         b2.left = b4;
         b2.right = b5;
-        b5.left=b6;
+        b3.left=b6;
         b3.right=b7;
         //List<List<Integer>> list=layerTraversal(b1);
         //System.out.println(list.size());
@@ -38,7 +38,8 @@ public class PreOrder {
         //System.out.println(maxDeep);
         //System.out.println(getMaxDeepUp(b1));
         //System.out.println(isSymmetric(b1));
-        System.out.println(hasPathSum(b1,8));
+        //System.out.println(hasPathSum(b1,8));
+        preorderTraversal2(b1);
     }
 
     //层序遍历---------
@@ -98,11 +99,21 @@ public class PreOrder {
     }
 
     //先序遍历（非递归）-----------------
-    public void preorderTraversal2(TreeNode root) {
-        if(root==null)return;
+    public static void preorderTraversal2(TreeNode root) {
         Stack<TreeNode> stack=new Stack<TreeNode>();
-        System.out.println(root.val);
-        stack.add(root);
+
+        while(stack.size()!=0||root!=null){
+
+            while(root!=null){
+                stack.push(root);
+                System.out.println(root.val);
+                root=root.left;
+            }
+            if(stack.size()!=0){
+                root=stack.pop();
+                root=root.right;
+            }
+        }
     }
 
 

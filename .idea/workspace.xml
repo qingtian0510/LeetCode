@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be1984cb-a043-45d1-a51e-3b4c29c224df" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DataStruction/BinaryTree/PreOrder.java" afterPath="$PROJECT_DIR$/src/main/java/DataStruction/BinaryTree/PreOrder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -51,14 +50,14 @@
       <file leaf-file-name="PreOrder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DataStruction/BinaryTree/PreOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5292653">
-              <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
+            <state vertical-scroll-proportion="-1.1295143">
+              <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
               <folding>
-                <element signature="e#1181#1196#0" expanded="true" />
-                <element signature="e#1279#1289#0" expanded="true" />
-                <element signature="e#1424#1433#0" expanded="true" />
-                <element signature="e#2439#2448#0" expanded="true" />
-                <element signature="e#2975#2985#0" expanded="true" />
+                <element signature="e#1215#1230#0" expanded="true" />
+                <element signature="e#1313#1323#0" expanded="true" />
+                <element signature="e#1458#1467#0" expanded="true" />
+                <element signature="e#2473#2482#0" expanded="true" />
+                <element signature="e#2986#2996#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -550,12 +549,12 @@
       <option name="number" value="Default" />
       <updated>1534146833699</updated>
       <workItem from="1534146837600" duration="5172000" />
-      <workItem from="1534230146976" duration="7124000" />
+      <workItem from="1534230146976" duration="8627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12296000" />
+    <option name="totallyTimeSpent" value="13799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1200" width="1920" height="1200" extended-state="0" />
@@ -600,7 +599,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DataStruction/BinaryTree/PreOrder.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -630,11 +637,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1181#1196#0" expanded="true" />
-            <element signature="e#1279#1289#0" expanded="true" />
-            <element signature="e#1424#1433#0" expanded="true" />
-            <element signature="e#2439#2448#0" expanded="true" />
-            <element signature="e#2975#2985#0" expanded="true" />
+            <element signature="e#1215#1230#0" expanded="true" />
+            <element signature="e#1313#1323#0" expanded="true" />
+            <element signature="e#1458#1467#0" expanded="true" />
+            <element signature="e#2473#2482#0" expanded="true" />
+            <element signature="e#2986#2996#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -657,14 +664,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DataStruction/BinaryTree/PreOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5292653">
-          <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
+        <state vertical-scroll-proportion="-1.1295143">
+          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
           <folding>
-            <element signature="e#1181#1196#0" expanded="true" />
-            <element signature="e#1279#1289#0" expanded="true" />
-            <element signature="e#1424#1433#0" expanded="true" />
-            <element signature="e#2439#2448#0" expanded="true" />
-            <element signature="e#2975#2985#0" expanded="true" />
+            <element signature="e#1215#1230#0" expanded="true" />
+            <element signature="e#1313#1323#0" expanded="true" />
+            <element signature="e#1458#1467#0" expanded="true" />
+            <element signature="e#2473#2482#0" expanded="true" />
+            <element signature="e#2986#2996#0" expanded="true" />
           </folding>
         </state>
       </provider>
